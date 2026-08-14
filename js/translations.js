@@ -91,7 +91,7 @@ const translations = {
     // ==================== TEAM ====================
     team_main_title: { en: "Experienced Team Members", am: "ልምድ ያላቸው የቡድን አባላት" },
     team_1_role:     { en: "Founder / Owner",           am: "መስራች / ባለቤት" },
-    team_2_role:     { en: "Veterinary Doctor",         am: "የእንስሳት ሐኪም" },
+    team_2_role:     { en: "General Manager",           am: "ዋና ሥራ አስኪያጅ" },
     team_3_role:     { en: "Social Media Manager / Content Creator", am: "የሶሻል ሚዲያ ማናጀር / ይዘት ፈጣሪ" },
 
     // ==================== TESTIMONIALS ====================
