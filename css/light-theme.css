@@ -1,0 +1,35 @@
+/* Single supported site theme: light. Loaded after Bootstrap and style.css. */
+:root {
+    color-scheme: only light;
+    --bs-body-bg: #ffffff;
+    --bs-body-color: #404A3D;
+}
+
+html,
+body {
+    min-height: 100%;
+    background-color: #ffffff !important;
+    color: #404A3D;
+    filter: none !important;
+}
+
+/* Main page surfaces must match on standalone and home-page sections. */
+body > .container-xxl,
+body .container-xxl,
+.team-item,
+.product-item,
+.testimonial-item,
+.dropdown-menu,
+.navbar,
+input,
+textarea,
+select {
+    color-scheme: only light;
+    background-color: #ffffff !important;
+}
+
+/* Preserve the template's intentionally dark top bar and footer. */
+body > .bg-dark,
+.footer.bg-dark {
+    background-color: #404A3D !important;
+}
