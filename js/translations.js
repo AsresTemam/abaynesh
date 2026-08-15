@@ -13,6 +13,7 @@ const translations = {
     nav_features:     { en: "Features",      am: "ባህሪያት" },
     nav_team:         { en: "Our Team",      am: "ቡድናችን" },
     nav_testimonials: { en: "Testimonial",   am: "ምስክርነቶች" },
+    nav_journey:      { en: "Our Journey",   am: "ጉዞአችን" },
     nav_contact:      { en: "Contact",       am: "ያግኙን" },
 
     // ==================== TOPBAR ====================
@@ -178,6 +179,84 @@ const translations = {
     updates_view_products: { en: "View Products", am: "ምርቶችን ይመልከቱ" },
     updates_our_services: { en: "Our Services", am: "አገልግሎቶቻችን" },
     updates_contact_us: { en: "Contact Us", am: "ያግኙን" },
+
+    // ==================== OUR JOURNEY ====================
+    journey_document_title: { en: "Our Journey Since 2013 G.C. | Abaynesh Dairy Farm", am: "ጉዞአችን ከ2006 ዓ.ም. ጀምሮ | አባይነሽ የወተት እርሻ" },
+    journey_kicker: { en: "Established 2013 G.C.", am: "በ2006 ዓ.ም. የተመሰረተ" },
+    journey_foundation_year: { en: "2013 G.C.", am: "2006 ዓ.ም." },
+    journey_hero_title: { en: "It Started With Family Land", am: "ከቤተሰብ መሬት ተጀመረ" },
+    journey_hero_desc: {
+        en: "A determined family, a piece of land and a belief that patient work could build something valuable for generations.",
+        am: "ቆራጥ ቤተሰብ፣ አንድ መሬት እና ትዕግስት ያለው ሥራ ለትውልድ የሚቆይ ነገር ሊገነባ እንደሚችል እምነት።"
+    },
+    journey_scroll: { en: "Follow our story", am: "ታሪካችንን ይከተሉ" },
+    journey_intro_title: { en: "Where the journey began", am: "ጉዞው የተጀመረበት" },
+    journey_intro_desc: {
+        en: "Abaynesh Dairy Farm began on family land in 2013 G.C. What started modestly grew through daily responsibility, practical learning and a commitment to serve the surrounding community.",
+        am: "አባይነሽ የወተት እርሻ በ2006 ዓ.ም. በቤተሰብ መሬት ላይ ተጀመረ። በትንሹ የተጀመረው በዕለታዊ ኃላፊነት፣ በተግባራዊ ትምህርት እና አካባቢውን ማህበረሰብ ለማገልገል ባለው ቁርጠኝነት አደገ።"
+    },
+    journey_section_title: { en: "Our Story", am: "ታሪካችን" },
+    journey_timeline_title: { en: "From humble roots to a growing responsibility", am: "ከቀላል ጅማሬ ወደ እያደገ ኃላፊነት" },
+    journey_chapter1_title: { en: "The roots", am: "መሰረቱ" },
+    journey_chapter1_desc: {
+        en: "Before established operations and regular customers, there was family land and a clear purpose: to create lasting value through responsible farming.",
+        am: "የተደራጀ ሥራና ቋሚ ደንበኞች ከመኖራቸው በፊት የቤተሰብ መሬትና ግልጽ ዓላማ ነበር፤ በኃላፊነት በተሞላ እርሻ ዘላቂ እሴት መፍጠር።"
+    },
+    journey_stage_early: { en: "Early Years", am: "የመጀመሪያዎቹ ዓመታት" },
+    journey_chapter2_title: { en: "Learning through every day", am: "በየቀኑ እየተማሩ ማደግ" },
+    journey_chapter2_desc: {
+        en: "The early years were shaped by hands-on work, careful observation and persistence. Each challenge became practical knowledge for the next step.",
+        am: "የመጀመሪያዎቹ ዓመታት በተግባራዊ ሥራ፣ በጥንቃቄ ምልከታ እና በጽናት ተቀርጸዋል። እያንዳንዱ ፈተና ለቀጣዩ ደረጃ ተግባራዊ እውቀት ሆነ።"
+    },
+    journey_stage_growth: { en: "Growth", am: "እድገት" },
+    journey_chapter3_title: { en: "Better care, stronger foundations", am: "የተሻለ እንክብካቤ፣ ጠንካራ መሰረት" },
+    journey_chapter3_desc: {
+        en: "Experience brought improvements in cattle care, feeding, hygiene and farm organization—strengthening both the herd and the service.",
+        am: "ልምድ በከብት እንክብካቤ፣ በመኖ፣ በንጽህና እና በእርሻ አደረጃጀት ላይ መሻሻልን አመጣ፤ መንጋውንና አገልግሎቱን አጠናከረ።"
+    },
+    journey_stage_today: { en: "Today", am: "ዛሬ" },
+    journey_chapter4_title: { en: "A farm trusted beyond its gates", am: "ከደጁ ባሻገር እምነት ያገኘ እርሻ" },
+    journey_chapter4_desc: {
+        en: "Today, the farm serves its community and works alongside public institutions while continuing to grow from the same family values that shaped its beginning.",
+        am: "ዛሬ እርሻው ማህበረሰቡን ያገለግላል፣ ከመንግስት ተቋማትም ጋር ይሠራል፤ ጅማሬውን በቀረጹት የቤተሰብ እሴቶች ላይ እያደገም ይቀጥላል።"
+    },
+    journey_quote: {
+        en: "“We began with family land, determination and a responsibility to build something that would last.”",
+        am: "“በቤተሰብ መሬት፣ በቁርጠኝነት እና ዘላቂ ነገር የመገንባት ኃላፊነት ጀመርን።”"
+    },
+    journey_quote_credit: { en: "The Abaynesh Dairy Farm story", am: "የአባይነሽ የወተት እርሻ ታሪክ" },
+    journey_compare_label: { en: "Then & Now", am: "ያኔ እና ዛሬ" },
+    journey_compare_title: { en: "See how steady work transformed the farm", am: "ቀጣይነት ያለው ሥራ እርሻውን እንዴት እንደለወጠ ይመልከቱ" },
+    journey_compare_desc: {
+        en: "Move the slider to see the visual contrast between the farm's family roots and the growing operation it has become.",
+        am: "በቤተሰብ መሰረት የተጀመረውን እርሻ ከዛሬው እድገት ጋር በምስል ለማነጻጸር መቆጣጠሪያውን ያንቀሳቅሱ።"
+    },
+    journey_then: { en: "Then", am: "ያኔ" },
+    journey_now: { en: "Now", am: "አሁን" },
+    institutions_label: { en: "Institutional Collaboration", am: "ተቋማዊ ትብብር" },
+    institutions_title: { en: "Working alongside public institutions", am: "ከመንግስት ተቋማት ጋር በመስራት" },
+    institutions_intro: {
+        en: "As the farm grew, it built working relationships with public-sector institutions connected to agriculture, animal health and local development.",
+        am: "እርሻው እያደገ ሲሄድ ከግብርና፣ ከእንስሳት ጤና እና ከአካባቢ ልማት ጋር ከተያያዙ የመንግስት ተቋማት ጋር የሥራ ግንኙነት ገነባ።"
+    },
+    institution_1_title: { en: "Agricultural Development", am: "የግብርና ልማት" },
+    institution_1_desc: { en: "Collaboration around practical agricultural development, knowledge sharing and stronger farm practices.", am: "በተግባራዊ የግብርና ልማት፣ በእውቀት ልውውጥ እና በተሻለ የእርሻ አሠራር ዙሪያ ትብብር።" },
+    institution_2_title: { en: "Livestock & Veterinary Support", am: "የእንስሳት እና የእንስሳት ሕክምና ድጋፍ" },
+    institution_2_desc: { en: "Working relationships that support cattle health, responsible herd care and better dairy production.", am: "የከብት ጤናን፣ ኃላፊነት የተሞላ የመንጋ እንክብካቤን እና የተሻለ የወተት ምርትን የሚደግፍ የሥራ ግንኙነት።" },
+    institution_3_title: { en: "Local & Regional Institutions", am: "የአካባቢ እና የክልል ተቋማት" },
+    institution_3_desc: { en: "Engagement with public offices whose work supports local enterprise and community development.", am: "የአካባቢ ንግድንና የማህበረሰብ ልማትን ከሚደግፉ የመንግስት ቢሮዎች ጋር ተሳትፎ።" },
+    journey_future_label: { en: "The journey continues", am: "ጉዞው ይቀጥላል" },
+    journey_future_title: { en: "The next chapter is still being written", am: "ቀጣዩ ምዕራፍ አሁንም እየተጻፈ ነው" },
+    journey_future_desc: { en: "Abaynesh Dairy Farm continues to improve its practices, deepen its relationships and create lasting value for the next generation.", am: "አባይነሽ የወተት እርሻ አሠራሩን ማሻሻል፣ ግንኙነቱን ማጠናከር እና ለቀጣዩ ትውልድ ዘላቂ እሴት መፍጠርን ይቀጥላል።" },
+    journey_cta: { en: "Connect With Our Farm", am: "ከእርሻችን ጋር ይገናኙ" },
+    journey_preview_label: { en: "Our Journey", am: "ጉዞአችን" },
+    journey_preview_title: { en: "From family land to a farm serving the community", am: "ከቤተሰብ መሬት ወደ ማህበረሰብን የሚያገለግል እርሻ" },
+    journey_preview_desc: { en: "What began in 2013 G.C. with family land and determined work has grown into a trusted dairy farm with relationships reaching beyond its gates.", am: "በ2006 ዓ.ም. በቤተሰብ መሬትና በቆራጥ ሥራ የተጀመረው ከደጁ ባሻገር ግንኙነት ያለው ታማኝ የወተት እርሻ ሆኖ አድጓል።" },
+    journey_step_roots: { en: "Roots", am: "መሰረት" },
+    journey_step_growth: { en: "Growth", am: "እድገት" },
+    journey_step_trust: { en: "Trust", am: "እምነት" },
+    journey_step_future: { en: "Future", am: "ወደፊት" },
+    journey_discover: { en: "Discover Our Journey", am: "ጉዞአችንን ይመልከቱ" },
 
     // ==================== FOOTER ====================
     footer_office:     { en: "Our Office",    am: "ቢሯችን" },
