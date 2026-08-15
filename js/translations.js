@@ -21,8 +21,10 @@ const translations = {
 
     // ==================== HERO (index.html) ====================
     hero_welcome: { en: "Welcome to Abaynesh dairy farm", am: "እንኳን ወደ አባይነሽ የወተት እርሻ ደህና መጡ" },
-    hero_title1:  { en: "The Farm of Dairy products",     am: "የወተት ምርቶች እርሻ" },
+    hero_title1:  { en: "Pure Milk For All!",         am: "ንጹህ ወተት ለሁሉም!" },
     hero_title2:  { en: "Best Organic Dairy Products",    am: "ምርጥ ተፈጥሮአዊ የወተት ምርቶች" },
+    hero_title3:  { en: "Farm-Fresh Quality Every Day",   am: "በየቀኑ ትኩስ የእርሻ ጥራት" },
+    hero_title4:  { en: "Sustainable & Ethical Farming",  am: "ዘላቂ እና ሥነ-ምግባራዊ የከብት አርባሽ" },
     btn_explore:  { en: "Explore More",                   am: "ተጨማሪ ይመልከቱ" },
     btn_read_more:{ en: "Read More",                      am: "ተጨማሪ ያንብቡ" },
 
