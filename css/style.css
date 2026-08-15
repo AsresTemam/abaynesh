@@ -218,6 +218,7 @@
     display: inline-block;
     text-transform: uppercase;
     font-weight: 600;
+    z-index: 1;
 }
 
 .section-title::before {
