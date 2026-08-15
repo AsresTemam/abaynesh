@@ -218,39 +218,43 @@
     display: inline-block;
     text-transform: uppercase;
     font-weight: 600;
-    z-index: 1;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .section-title::before {
     position: absolute;
     content: "";
-    width: calc(100% + 80px);
+    width: 45px;
     height: 2px;
-    top: 5px;
-    left: -40px;
+    top: 65%;
+    left: -55px;
     background: var(--primary);
-    z-index: -1;
+    box-shadow: 10px -7px 0 0 var(--primary);
 }
 
 .section-title::after {
     position: absolute;
     content: "";
-    width: calc(100% + 120px);
+    width: 45px;
     height: 2px;
-    bottom: 6px;
-    left: -60px;
+    top: 65%;
+    right: -55px;
     background: var(--primary);
-    z-index: -1;
+    box-shadow: -10px -7px 0 0 var(--primary);
+}
+
+.section-title.text-start {
+    margin-left: 0;
+    margin-right: 60px;
 }
 
 .section-title.text-start::before {
-    width: calc(100% + 40px);
-    left: 0;
+    display: none;
 }
 
 .section-title.text-start::after {
-    width: calc(100% + 60px);
-    left: 0;
+    right: -55px;
 }
 
 
